@@ -1,0 +1,34 @@
+li.gfield table.gfield_list tbody td {
+	display: table-cell;
+	padding-top: 0.25em;
+	vertical-align: top;
+}
+
+li.gfield table.gfield_list tbody td:not(.gfield_list_icons) .charleft {
+    line-height: initial;
+    margin-top: 2px;
+    text-align: right;
+}
+
+li.gfield table.gfield_list tbody td:not(.gfield_list_icons) input, 
+li.gfield table.gfield_list tbody td:not(.gfield_list_icons) textarea {
+	vertical-align: top;
+}
+
+li.gfield table.gfield_list tbody td.gfield_list_icons, 
+li.gfield table.gfield_list tbody td.gfield_list_icons {
+	position: absolute;
+}
+
+li.gfield table.gfield_list td.gfield_list_icons img {
+    margin-top: 25% !important;
+}
+
+li.gfield table.gfield_list tbody td div.charleft {
+	width: 100% !important;
+	padding-right: 2.5% !important;
+}
+
+li.gfield table.gfield_list.itsg_charcount_95w {
+    width: 95%;
+}
